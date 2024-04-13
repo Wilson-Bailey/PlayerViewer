@@ -8,8 +8,16 @@ const Players = () => {
   useEffect(() => {
     // Fetch data from the server
     fetch("http://localhost:5000/playersData.json")
-      .then((response) => response.json())
-      .then((data) => setPlayers(data))
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        console.log("Data fetched successfully:", data);
+        setPlayers(data);
+      })
       .catch((error) => console.error("Error fetching players:", error));
   }, []);
 

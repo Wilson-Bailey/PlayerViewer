@@ -41,18 +41,18 @@
     "id": 3,
     "name": "Anthony Davis",
     "team": "Los Angeles Lakers",
-    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png",
+    "image": "https://d1si3tbndbzwz9.cloudfront.net/basketball/player/11373/headshot.png",
     "careerStats": {
-      "G": [1490],
-      "PTS": [27.1],
-      "TRB": [7.5],
-      "AST": [7.4],
-      "FG%": [50.6],
-      "FG3%": [34.8],
-      "FT%": [73.6],
-      "eFG%": [54.7],
-      "PER": [27.1],
-      "WS": [262.7]
+      "G": [735],
+      "PTS": [24.1],
+      "TRB": [10.6],
+      "AST": [2.5],
+      "FG%": [52.3],
+      "FG3%": [29.7],
+      "FT%": [79.5],
+      "eFG%": [79.5],
+      "PER": [53.6],
+      "WS": [111.8]
     }
   },
 
