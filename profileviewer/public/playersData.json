@@ -57,21 +57,21 @@
   },
 
   {
-    "id": 1,
-    "name": "LeBron James",
-    "team": "Los Angeles Lakers",
-    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "id": 4,
+    "name": "Nikola Jokic",
+    "team": "Denver Nuggets",
+    "image": "https://th.bing.com/th/id/OIP.jgIuZ6dZipMsH6tpfOD6igHaFY?rs=1&pid=ImgDetMain",
     "careerStats": {
-      "G": [1490],
-      "PTS": [27.1],
-      "TRB": [7.5],
-      "AST": [7.4],
-      "FG%": [50.6],
-      "FG3%": [34.8],
-      "FT%": [73.6],
-      "eFG%": [54.7],
-      "PER": [27.1],
-      "WS": [262.7]
+      "G": [674],
+      "PTS": [21],
+      "TRB": [10.7],
+      "AST": [6.9],
+      "FG%": [55.7],
+      "FG3%": [35.0],
+      "FT%": [82.7],
+      "eFG%": [59.2],
+      "PER": [28.1],
+      "WS": [111.4]
     }
   },
 
