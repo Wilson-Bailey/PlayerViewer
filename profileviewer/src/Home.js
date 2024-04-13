@@ -55,7 +55,7 @@ const HomeContent = () => {
       <div className="card-container">
         <div className="card card-1">
           <div className="card-img"></div>
-          <a href="#" className="card-link">
+          <a href="/" className="card-link">
             <div className="card-img-hovered"></div>
           </a>
           <div className="card-info">
@@ -66,7 +66,7 @@ const HomeContent = () => {
 
         <div className="card card-2">
           <div className="card-img"></div>
-          <a href="#" className="card-link">
+          <a href="/" className="card-link">
             <div className="card-img-hovered"></div>
           </a>
           <div className="card-info">
@@ -78,7 +78,7 @@ const HomeContent = () => {
         </div>
         <div className="card card-3">
           <div className="card-img"></div>
-          <a href="#" className="card-link">
+          <a href="/" className="card-link">
             <div className="card-img-hovered"></div>
           </a>
           <div className="card-info">
@@ -88,7 +88,7 @@ const HomeContent = () => {
         </div>
         <div className="card card-4">
           <div className="card-img"></div>
-          <a href="#" className="card-link">
+          <a href="/" className="card-link">
             <div className="card-img-hovered"></div>
           </a>
           <div className="card-info">
