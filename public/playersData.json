@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 2,
+    "name": "Stephen Curry",
+    "team": "Golden State Warriors",
+    "image": "https://th.bing.com/th/id/OIP.Ayahq97Fgk6_A0PmSGzmOAAAAA?rs=1&pid=ImgDetMain",
+    "careerStats": {
+      "G": [954],
+      "PTS": [24.8],
+      "TRB": [4.7],
+      "AST": [6.4],
+      "FG%": [47.3],
+      "FG3%": [42.6],
+      "FT%": [91.0],
+      "eFG%": [58.2],
+      "PER": [23.6],
+      "WS": [134.8]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  },
+  {
+    "id": 1,
+    "name": "LeBron James",
+    "team": "Los Angeles Lakers",
+    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "careerStats": {
+      "G": [1490],
+      "PTS": [27.1],
+      "TRB": [7.5],
+      "AST": [7.4],
+      "FG%": [50.6],
+      "FG3%": [34.8],
+      "FT%": [73.6],
+      "eFG%": [54.7],
+      "PER": [27.1],
+      "WS": [262.7]
+    }
+  }
+
+]

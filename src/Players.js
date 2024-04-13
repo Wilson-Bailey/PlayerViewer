@@ -7,7 +7,7 @@ const Players = () => {
 
   useEffect(() => {
     // Fetch data from the server
-    fetch("/playersData.json")
+    fetch("http://localhost:5000/playersData.json")
       .then((response) => response.json())
       .then((data) => setPlayers(data))
       .catch((error) => console.error("Error fetching players:", error));
