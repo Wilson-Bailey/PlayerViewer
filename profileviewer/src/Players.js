@@ -8,7 +8,7 @@ const Players = () => {
   useEffect(() => {
     const fetchPlayersData = async () => {
       try {
-        const response = await fetch("/.netlify/functions/getPlayersData");
+        const response = await fetch("/playersData.json");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
