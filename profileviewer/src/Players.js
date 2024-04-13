@@ -6,19 +6,20 @@ const Players = () => {
   const [selectedPlayer, setSelectedPlayer] = useState(null);
 
   useEffect(() => {
-    // Fetch data from the server
-    fetch("http://localhost:5000/playersData.json")
-      .then((response) => {
+    const fetchPlayersData = async () => {
+      try {
+        const response = await fetch("/.netlify/functions/getPlayersData");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        return response.json();
-      })
-      .then((data) => {
-        console.log("Data fetched successfully:", data);
+        const data = await response.json();
         setPlayers(data);
-      })
-      .catch((error) => console.error("Error fetching players:", error));
+      } catch (error) {
+        console.error("Error fetching players:", error);
+      }
+    };
+
+    fetchPlayersData();
   }, []);
 
   const handlePlayerContainerClick = (player) => {
