@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./Home"; // Assuming Home.js is in the same directory
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        {/* Your header content goes here */}
       </header>
+      <main>
+        <Home />
+        {/* You can include other components or pages here as needed */}
+      </main>
+      <footer>
+        {/* Your footer content goes here */}
+      </footer>
     </div>
   );
-}
+};
 
 export default App;

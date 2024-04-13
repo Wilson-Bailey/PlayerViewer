@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./css/playersPage.css"; 
-import { getDefaultNormalizer } from "@testing-library/react";
 
 const Players = () => {
   const [players, setPlayers] = useState([]);
