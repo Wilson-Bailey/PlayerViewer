@@ -38,10 +38,10 @@
   },
 
   {
-    "id": 1,
-    "name": "LeBron James",
+    "id": 3,
+    "name": "Anthony Davis",
     "team": "Los Angeles Lakers",
-    "image": "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6583.png",
     "careerStats": {
       "G": [1490],
       "PTS": [27.1],

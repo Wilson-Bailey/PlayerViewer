@@ -6,7 +6,7 @@ const publicDir = path.join(__dirname, 'public');
 
 app.use(express.static(publicDir));
 
-app.get('http://localhost:5000/playersData.json', (req, res) => {
+app.get('/playersData.json', (req, res) => {
   const filePath = path.join(publicDir, 'playersData.json');
   
   res.sendFile(filePath, (err) => {

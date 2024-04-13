@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./css/playersPage.css"; 
+import "./css/playersPage.css";
 
 const Players = () => {
   const [players, setPlayers] = useState([]);
@@ -21,11 +21,13 @@ const Players = () => {
     <div>
       <div className="player-container">
         {players.map((player) => (
-         <div
-         key={player.id}
-         className={`playerContainer clickable ${selectedPlayer === player ? "flip" : ""}`}
-         onClick={() => handlePlayerContainerClick(player)}
-       >
+          <div
+            key={player.id}
+            className={`playerContainer clickable ${
+              selectedPlayer === player ? "flip" : ""
+            }`}
+            onClick={() => handlePlayerContainerClick(player)}
+          >
             <div className="playerContainerInner">
               <div className="playerContainerFront">
                 {player.image && <img src={player.image} alt={player.name} />}
