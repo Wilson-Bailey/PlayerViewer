@@ -8,7 +8,7 @@ const Players = () => {
   useEffect(() => {
     const fetchPlayersData = async () => {
       try {
-        const response = await fetch("/playersData.json");
+        const response = await fetch("http://localhost:5000/api/players");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
