@@ -1,3 +1,3 @@
 [build]
-  command = "npm run build && node server.js"
-  publish = "public"
+  command = "cd profileviewer && npm install && npm run build && node server.js"
+  publish = "profileviewer/public"
