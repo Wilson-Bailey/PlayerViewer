@@ -1,3 +1,4 @@
 [build]
   command = "node server.js"
+  command = "npm run build && node server.js"
   publish = "public"
