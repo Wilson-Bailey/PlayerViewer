@@ -6,6 +6,7 @@ h3 {
   margin-top: 10px;
 }
 .player-container {
+  background-color: #cfcfcf;
   display: flex;
   height: 100%;
   flex-wrap: wrap;
@@ -20,7 +21,7 @@ h3 {
   margin: 25px;
   position: relative;
   border-radius: px;
-  background-color: #f1f1f1; /* A little darker than white */
+  background-color: #fafafa; /* A little darker than white */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
   transition: transform 0.3s ease;
 }
