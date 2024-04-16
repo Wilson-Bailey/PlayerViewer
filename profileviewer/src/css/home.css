@@ -20,14 +20,6 @@ header {
   align-items: center; /* Center the items vertically */
 }
 
-.logo {
-  margin-right: auto; /* Push the logo to the left */
-}
-
-.logo img {
-  height: 40px; /* Adjust the height of the logo */
-}
-
 .nav-links {
   list-style: none;
   padding: 0;
@@ -52,32 +44,8 @@ header {
   font-weight: bold; /* Add font weight */
 }
 
-.search-bar {
-  margin-left: auto; /* Push the search bar to the far right */
-}
-
-.search-bar input[type="text"] {
-  padding: 8px 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.search-bar button {
-  padding: 8px 15px;
-  border-radius: 5px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  margin-left: 5px;
-}
-
-.main {
-  padding: 20px 0;
-}
-
 .hero {
-  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/10b6c331180287.560593ca5adf7.jpg");
+  background-image: url("https://www.gannett-cdn.com/presto/2018/10/19/USAT/057f1f9d-0062-4898-a2f3-a67b7ce1daba-USATSI_11467669.jpg?crop=3143,1768,x0,y531&width=3200&height=1680&fit=bounds");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -137,26 +105,6 @@ header {
 
 .news-card h3 {
   margin-top: 10px;
-}
-
-.popular-sports {
-  background-color: #f4f4f4;
-  padding: 50px 0;
-}
-
-.sports-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.sport-card {
-  text-align: center;
-}
-
-.sport-card img {
-  width: 100%;
-  border-radius: 5px;
 }
 
 footer {
