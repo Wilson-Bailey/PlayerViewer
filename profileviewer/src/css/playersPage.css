@@ -1,9 +1,13 @@
+nav {
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+}
+
 .nav-links {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center the items horizontally */
   align-items: center; /* Center the items vertically */
   font-family: "Roboto", sans-serif; /* Change font */
 }
@@ -39,7 +43,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust opacity as needed */
 }
 
 .hero-content {
@@ -167,6 +171,7 @@
   flex-wrap: wrap;
   justify-content: space-between; /* Adjust as needed */
   margin-left: 20px;
+  padding: 10px;
 }
 
 .video-card {
@@ -175,5 +180,5 @@
   ); /* Adjusted width for three cards in a row with spacing */
   margin-bottom: 20px; /* Space between the rows */
   overflow: hidden; /* Hide overflow content */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+
 }

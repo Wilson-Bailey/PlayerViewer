@@ -130,8 +130,36 @@ const Players = () => {
         </section>
       </main>
       <footer className="footer">
-        <p>&copy; 2024 SportsHub. All rights reserved.</p>
-      </footer>
+  <div className="footer-content">
+    <div className="footer-column">
+      <div className="footer-item">
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida elit ac nibh euismod, vel fringilla ligula tempor.</p>
+      </div>
+    </div>
+    <div className="footer-column">
+      <div className="footer-item">
+        <h3>Contact Us</h3>
+        <p>Email: contact@example.com</p>
+        <p>Phone: +1234567890</p>
+      </div>
+    </div>
+    <div className="footer-column">
+      <div className="footer-item">
+        <h3>Follow Us</h3>
+        <div className="social-icons">
+          <a href="#"><i className="fa fa-facebook"></i></a>
+          <a href="#"><i className="fa fa-twitter"></i></a>
+          <a href="#"><i className="fa fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="copyright">
+    <p>&copy; 2024 SportsHub. All rights reserved.</p>
+  </div>
+</footer>
+
     </div>
   );
 };

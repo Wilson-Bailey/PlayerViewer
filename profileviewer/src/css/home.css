@@ -113,3 +113,19 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+.footer-content {
+  display: flex;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-item {
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin-right: 10px;
+}

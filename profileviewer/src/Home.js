@@ -1,6 +1,8 @@
 import React from "react";
 import "./css/home.css";
 import { Link } from "react-router-dom"; // Removed unused imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 const Home = () => {
   return (
@@ -75,8 +77,39 @@ const Home = () => {
           </div>
         </section>
       </main>
-      <footer>
-        <p>&copy; 2024 SportsHub. All rights reserved.</p>
+      <footer className="footer">
+        <div className="footer-content">
+          <div className="footer-column">
+            <div className="footer-item">
+              <h3>About Me</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                gravida elit ac nibh euismod, vel fringilla ligula tempor.
+              </p>
+            </div>
+          </div>
+          <div className="footer-column">
+            <div className="footer-item">
+              <h3>Contact Us</h3>
+              <p>Email: contact@example.com</p>
+              <p>Phone: +1234567890</p>
+            </div>
+          </div>
+          <div className="footer-column">
+            <div className="footer-item">
+              <h3>Follow Us</h3>
+              <div className="social-icons">
+                <FontAwesomeIcon icon="fa-brands fa-github" />
+                <FontAwesomeIcon icon="fa-brands fa-discord" />
+                <FontAwesomeIcon icon="fa-brands fa-twitter" />
+                <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="copyright">
+          <p>&copy; 2024 SportsHub. All rights reserved.</p>
+        </div>
       </footer>
     </div>
   );
