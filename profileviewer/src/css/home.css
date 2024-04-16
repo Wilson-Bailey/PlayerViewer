@@ -17,7 +17,7 @@ header {
 
 .navbar {
   display: flex;
-  align-items: center; /* Center the items vertically */
+  align-items: center;
 }
 
 .nav-links {
@@ -25,11 +25,10 @@ header {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center; /* Center the items horizontally */
-  align-items: center; /* Center the items vertically */
-  font-family: "Roboto", sans-serif; /* Change font */
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
 }
-
 .nav-links li {
   margin-right: 20px;
 }
@@ -41,7 +40,7 @@ header {
 .nav-links li a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold; /* Add font weight */
+  font-weight: bold;
 }
 
 .hero {
@@ -61,7 +60,7 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .hero-content {
@@ -70,11 +69,11 @@ header {
 }
 
 .hero-content h1 {
-  font-size: 48px; /* Increase font size for emphasis */
+  font-size: 48px;
 }
 
 .hero-content p {
-  font-size: 24px; /* Increase font size for emphasis */
+  font-size: 24px;
 }
 
 .featured {
@@ -126,6 +125,17 @@ footer {
   margin-bottom: 20px;
 }
 
-.social-icons a {
-  margin-right: 10px;
+.social-icons {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 30px;
+  color: #fff;
+}
+
+.icon:hover {
+  color: #ffcc00;
 }

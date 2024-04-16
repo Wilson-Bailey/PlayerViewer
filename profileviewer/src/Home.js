@@ -1,8 +1,13 @@
 import React from "react";
 import "./css/home.css";
-import { Link } from "react-router-dom"; // Removed unused imports
+import { Link } from "react-router-dom";
+import {
+  faGithub,
+  faDiscord,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 
 const Home = () => {
   return (
@@ -29,7 +34,6 @@ const Home = () => {
         <section className="featured">
           <h2>Latest News</h2>
           <div className="featured-news">
-            {/* Display featured news articles */}
             <div className="news-card">
               <img
                 src="https://th.bing.com/th/id/OIF.5YtYwgyNUBWC1BCxzWKglQ?rs=1&pid=ImgDetMain"
@@ -83,32 +87,59 @@ const Home = () => {
             <div className="footer-item">
               <h3>About Me</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                gravida elit ac nibh euismod, vel fringilla ligula tempor.
+                My name is Bailey I am a computer science major at ETSU, Ive
+                been interested in coding for about two years now and look
+                forward to see where it takes me in my life.
               </p>
             </div>
           </div>
           <div className="footer-column">
             <div className="footer-item">
               <h3>Contact Us</h3>
-              <p>Email: contact@example.com</p>
-              <p>Phone: +1234567890</p>
+              <p>Email: wilsonbailey88@gmail.com</p>
+              <p>Phone: (423) 440-7430</p>
+              <div className="copyright">
+                <p>&copy; 2024 SportsHub. All rights reserved.</p>
+              </div>
             </div>
           </div>
           <div className="footer-column">
             <div className="footer-item">
-              <h3>Follow Us</h3>
-              <div className="social-icons">
-                <FontAwesomeIcon icon="fa-brands fa-github" />
-                <FontAwesomeIcon icon="fa-brands fa-discord" />
-                <FontAwesomeIcon icon="fa-brands fa-twitter" />
-                <FontAwesomeIcon icon="fa-brands fa-linkedin" />
+              <div className="follow-section">
+                <h3>Follow Me</h3>
+                <div className="social-icons">
+                  <a
+                    href="https://github.com/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                  </a>
+                  <a
+                    href="https://discord.com/invite/your-server"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faDiscord} className="icon" />
+                  </a>
+                  <a
+                    href="https://twitter.com/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faTwitter} className="icon" />
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                  </a>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="copyright">
-          <p>&copy; 2024 SportsHub. All rights reserved.</p>
         </div>
       </footer>
     </div>

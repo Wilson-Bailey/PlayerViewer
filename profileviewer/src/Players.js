@@ -1,8 +1,14 @@
 // Players.js
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./css/playersPage.css";
+import {
+  faGithub,
+  faDiscord,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Players = () => {
   const [players, setPlayers] = useState([]);
@@ -87,8 +93,6 @@ const Players = () => {
         <section className="videos">
           <h2>Recent Highlights</h2>
           <div className="video-container">
-            {/* Add your video components here */}
-            {/* Example: */}
             <div className="video-card">
               <iframe
                 width="560"
@@ -125,41 +129,70 @@ const Players = () => {
                 allowfullscreen
               ></iframe>
             </div>
-            {/* Add more video cards as needed */}
           </div>
         </section>
       </main>
       <footer className="footer">
-  <div className="footer-content">
-    <div className="footer-column">
-      <div className="footer-item">
-        <h3>About Us</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida elit ac nibh euismod, vel fringilla ligula tempor.</p>
-      </div>
-    </div>
-    <div className="footer-column">
-      <div className="footer-item">
-        <h3>Contact Us</h3>
-        <p>Email: contact@example.com</p>
-        <p>Phone: +1234567890</p>
-      </div>
-    </div>
-    <div className="footer-column">
-      <div className="footer-item">
-        <h3>Follow Us</h3>
-        <div className="social-icons">
-          <a href="#"><i className="fa fa-facebook"></i></a>
-          <a href="#"><i className="fa fa-twitter"></i></a>
-          <a href="#"><i className="fa fa-instagram"></i></a>
+        <div className="footer-content">
+          <div className="footer-column">
+            <div className="footer-item">
+              <h3>About Me</h3>
+              <p class="p-footer">
+                My name is Bailey I am a computer science major at ETSU, Ive
+                been interested in coding for about two years now and look
+                forward to see where it takes me in my life.
+              </p>
+            </div>
+          </div>
+          <div className="footer-column">
+            <div className="footer-item">
+              <h3>Contact Me</h3>
+              <p>Email: wilsonbailey88@gmail.com</p>
+              <p>Phone: (423) 440-7430</p>
+              <div className="copyright">
+                <p>&copy; 2024 SportsHub. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+          <div className="footer-column">
+            <div className="footer-item">
+              <div className="follow-section">
+                <h3>Follow Me</h3>
+                <div className="social-icons">
+                  <a
+                    href="https://github.com/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faGithub} className="icon" />
+                  </a>
+                  <a
+                    href="https://discord.com/invite/your-server"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faDiscord} className="icon" />
+                  </a>
+                  <a
+                    href="https://twitter.com/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faTwitter} className="icon" />
+                  </a>
+                  <a
+                    href="https://linkedin.com/in/your-profile"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon icon={faLinkedin} className="icon" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div className="copyright">
-    <p>&copy; 2024 SportsHub. All rights reserved.</p>
-  </div>
-</footer>
-
+      </footer>
     </div>
   );
 };
