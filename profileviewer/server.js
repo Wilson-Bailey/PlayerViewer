@@ -200,7 +200,7 @@ app.get("/api/players", (req, res) => {
         name: "Anthony Edwards",
         team: "Minnesota Timberwolves",
         image:
-          "https://th.bing.com/th/id/OIP.mfxJp0E0EFkhIfWDbGtQ4QAAAA?rs=1&pid=ImgDetMai",
+          "https://th.bing.com/th/id/OIP.fhL26qMbl1SIgur_OnUyuAAAAA?rs=1&pid=ImgDetMain",
         careerStats: {
           G: [302],
           PTS: [22.9],
