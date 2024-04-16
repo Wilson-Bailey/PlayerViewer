@@ -91,7 +91,7 @@ const Players = () => {
           </div>
         </section>
         <section className="videos">
-          <h2>Recent Highlights</h2>
+          <h2 class="h2-highlights">Recent Highlights</h2>
           <div className="video-container">
             <div className="video-card">
               <iframe

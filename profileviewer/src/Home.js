@@ -8,6 +8,8 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
 
 const Home = () => {
   return (
@@ -78,7 +80,42 @@ const Home = () => {
                 and more reading of betting market tea leaves
               </p>
             </div>
+            <div className="news-card">
+              <img
+                src="https://sportshub.cbsistatic.com/i/r/2024/04/05/47c84e3e-a3f2-4ab9-b405-c51bd2d69d25/thumbnail/770x433/9e20f8bf81c16761cd5d5e35529fa169/gettyimages-2131315751-1-1.jpg"
+                alt="Featured News 5"
+              />
+              <h3>WNBA Draft</h3>
+              <p>
+                2024 WNBA Draft: First-round grades, full results as Caitlin
+                Clark goes No. 1 to Indiana Fever
+              </p>
+            </div>
+            <div className="news-card">
+              <img
+                src="https://sportshub.cbsistatic.com/i/r/2023/07/10/d37513ab-4851-493d-be4a-d968d12d066d/thumbnail/770x433/7c5ecacd7865ebff6191ad077ba34be2/xander.jpg"
+                alt="Featured News 6"
+              />
+              <h3>PGA</h3>
+              <p>
+                2024 RBC Heritage odds, field: Surprising PGA picks, predictions
+                from proven model that's nailed 11 majors
+              </p>
+            </div>
           </div>
+        </section>
+        <section className="calendar">
+          <h2 class="calendar-events-header">Upcoming Events</h2>
+          <FullCalendar
+            plugins={[dayGridPlugin]}
+            initialView="dayGridMonth"
+            events={[
+              { title: "Basketball Game", date: "2024-04-20" },
+              { title: "Soccer Match", date: "2024-04-22" },
+              { title: "Tennis Tournament", date: "2024-04-25" },
+              // Add more events as needed
+            ]}
+          />
         </section>
       </main>
       <footer className="footer">
@@ -109,7 +146,7 @@ const Home = () => {
                 <h3>Follow Me</h3>
                 <div className="social-icons">
                   <a
-                    href="https://github.com/your-profile"
+                    href="https://github.com/Wilson-Bailey"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

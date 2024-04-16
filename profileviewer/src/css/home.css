@@ -90,11 +90,11 @@ header {
 }
 
 .news-card {
-  flex: 1;
-  max-width: 300px;
+  flex-basis: calc(20% - 50px); /* Set flex basis to 25% minus gap */
+  max-width: calc(25% - 50px); /* Set max width to 25% minus gap */
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 20px;
+  padding: 30px; /* Increase padding to make cards bigger */
 }
 
 .news-card img {
@@ -138,4 +138,44 @@ footer {
 
 .icon:hover {
   color: #ffcc00;
+}
+
+/* Custom styles for FullCalendar */
+
+.calendar-events-header {
+  text-align: center;
+}
+
+.calendar {
+  background-color: #f0f0f0; /* Add background color */
+  padding: 20px; /* Add padding to the calendar section */
+}
+
+.fc {
+  font-family: Arial, sans-serif; /* Match your font */
+  border: none; /* Remove the border */
+  width: 90%; /* Adjust the width of the calendar */
+  max-width: 800px; /* Set a maximum width for responsiveness */
+  margin: auto; /* Center the calendar */
+  margin-top: 20px; /* Add space above the calendar */
+  margin-bottom: 20px; /* Add space below the calendar */
+}
+
+.fc-header-toolbar {
+  margin-bottom: 20px; /* Add some space below the calendar header */
+}
+
+.fc-day-header {
+  padding: 10px; /* Adjust the padding for day headers */
+  font-size: 16px; /* Increase font size for day headers */
+}
+
+.fc-day {
+  padding: 5px; /* Adjust the padding for each day */
+  font-size: 14px; /* Increase font size for each day */
+}
+
+.fc-event {
+  padding: 5px; /* Adjust the padding for events */
+  font-size: 14px; /* Increase font size for events */
 }
